@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Chandra Baidya - Personal Portfolio</title>
+    <link rel="shortcut icon" href="assets/images/icon.jpg" type="image/x-icon">
+    <!-- bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSs -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <style>
+        @media (max-width: 991px) {
+            .second-row-div:nth-child(1) {
+                order: 1;
+            }
+
+            .second-row-div:nth-child(2) {
+                order: 3;
+                margin-top: 10px;
+            }
+
+            .second-row-div:nth-child(3) {
+                order: 2;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-body">
+
+    <div class="preloader position-relative scrollable">
+        <div class="position-absolute loading-div">
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <p>Portfolio is Loading Please Wait... <br>
+                    <span id="loadingPercentage">0%</span> Loaded
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+
+        <header>
+            <div class="navlink-responsive">
+                <ul>
+                    <a href="index.html" class="active">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="works.html">
+                        <li>Works</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#talk">
+                        <li>
+                            <button class="btn btn-dark lets-talk-btn-nav">Let's Talk</button>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <nav class="navbar">
+
+                <div class="logo-div">
+                    <img src="assets/images/svg/logo.svg" class="position-relative" alt="logo">
+                </div>
+                <div class="links-div">
+                    <ul>
+                        <a href="index.html" class="active">
+                            <li>Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="works.html">
+                            <li>Works</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="letstalk-div">
+                    <button class="btn btn-dark" id="lets-talk-btn">Let's Talk</button>
+                    <!-- <button class="btn btn-dark"><img src="assets/images/loading.gif" class="laoding-img"></button> -->
+                </div>
+                <div class="responsive-three-dot-div">
+                    <!-- <button class="btn" id="more-btn"><i class="fa-solid fa-bars white"></i></button> -->
+                    <button class="morebtn" id="more-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <section id="body">
+            <div class="container" id="body-content">
+                <div class="row">
+                    <div class="col-12 col-md-6" id="first-row-first-col">
+                        <div class="intro-div position-relative">
+                            <a href="#goSomewhere" class="go-svg">
+                            </a>
+                            <div class="inner-introdiv">
+                                <div class="row">
+                                    <div class="col-12 col-md-5 profile-picture-div profile-parent">
+                                        <div class="profile-picture-div">
+                                            <img src="assets/images/me.png" alt="Me" class="my-img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-7 introduction-div">
+                                        <p id="my-role">Full Stack Web Developer</p>
+                                        <p id="full_name">Dinesh Chandra Baidya</p>
+                                        <p id="short_desc" class="scrollable">I am a web developer based on kolkata.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" id="first-row-second-col">
+                        <div class="projects-links-div">
+                            <div class="rail-div">
+                                <div class="marquee">
+                                    <span>
+                                        <a href="#project1">Daily Dart (To Do App) - Flutter</a>
+                                        <a href="#project1">Woocom (E-Commerce App) - Flutter</a>
+                                    </span>
+                                </div>
+                                <div class="marquee marque-2">
+                                    <span>
+                                        <a href="#project1">Daily Dart (To Do App) - Flutter</a>
+                                        <a href="#project1">Woocom (E-Commerce App) - Flutter</a>
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="another-two-div">
+                            <div class="row">
+                                <div class="col-6 position-relative" id="credential-div">
+                                    <a href="credentials.html" class="go-svg">
+                                    </a>
+                                    <div class="inner-credential">
+                                        <div class="inner-content">
+                                            <div class="image-div">
+                                                <img src="assets/images/sign.png" alt="signature" class="signature">
+                                            </div>
+                                            <div class="credentials-details">
+                                                <p class="default-font-style">More About Me</p>
+                                                <p class="default-font-style2">Credentials</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 position-relative" id="projects-div">
+                                    <a href="#goSomewhere3" class="go-svg">
+                                    </a>
+
+                                    <div class="inner-credential">
+                                        <div class="inner-content">
+                                            <div class="image-div">
+                                                <img src="assets/images/my-works.png" alt="signature" class="signature">
+                                            </div>
+                                            <div class="credentials-details">
+                                                <p class="default-font-style">Showcase</p>
+                                                <p class="default-font-style2">Projects</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row second-row">
+                    <div class="col-3 blogs-div second-row-div">
+                        <div class="inner-second-row-div" id="blog-div">
+                            <a href="#goSomewhere3" class="go-svg">
+                            </a>
+
+                            <div class="inner-credential">
+                                <div class="inner-content">
+                                    <div class="image-div">
+                                        <img src="assets/images/gfonts.png" alt="gfonts" class="signature">
+                                    </div>
+                                    <div class="credentials-details">
+                                        <p class="default-font-style">Letest</p>
+                                        <p class="default-font-style2">Blogs</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-6 offering-div second-row-div">
+                        <div class="inner-second-row-div">
+                            <a href="#goSomewhere3" class="go-svg">
+                            </a>
+
+                            <div class="inner-credential">
+                                <div class="inner-content">
+                                    <div class="image-div d-flex flex-wrap profiles services-parent scrollable">
+
+                                        <div class=" services-div">
+
+                                            <div class="services" data-toggle="tooltip"
+                                                title='As a Frontend Developer, we create engaging and responsive user interfaces using HTML, CSS, JavaScript, and jQuery. Our focus is on delivering a seamless user experience across various devices.'>
+                                                <i class="fa-brands fa-html5"></i>
+                                                <span>Frontend</span>
+                                            </div>
+
+                                            <div class="services" data-toggle="tooltip"
+                                                title='Specializing in Backend Development, we utilize technologies like Laravel, PHP, CodeIgniter, and AJAX to build robust and efficient server-side applications. Our goal is to ensure data integrity and system performance.'>
+                                                <i class="fab fa-php"></i>
+                                                <span>Backend</span>
+                                            </div>
+
+                                            <div class="services" data-toggle="tooltip"
+                                                title='As Fullstack Developers, we have expertise in both frontend and backend technologies. Our skill set includes working with databases, ensuring the entire web application functions seamlessly, and optimizing performance.'>
+                                                <i class="fas fa-code"></i>
+                                                <span>Fullstack</span>
+                                            </div>
+
+                                            <div class="services" data-toggle="tooltip"
+                                                title='With 5 years of experience in Server Management, we excel in setting up, configuring, and maintaining servers. Our expertise includes working with AWS servers, Hostinger shared servers, and more. We focus on performance optimization, security enhancements, and proactive monitoring.'>
+                                                <i class="fas fa-database"></i>
+                                                <span>Server</span>
+                                            </div>
+
+                                            <div class="services" data-toggle="tooltip"
+                                                title='In App Development, we harness the power of Flutter to create cross-platform mobile applications. With 5 years of experience, we ensure that your apps are not only visually appealing but also performant and user-friendly.'>
+                                                <i class="fas fa-mobile-screen"></i>
+                                                <span>App</span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="credentials-details">
+                                        <p class="default-font-style">Specialization</p>
+                                        <p class="default-font-style2">Service Offering</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-3 connect-div second-row-div">
+                        <div class="inner-second-row-div">
+                            <a href="#goSomewhere3" class="go-svg">
+                            </a>
+
+                            <div class="inner-credential">
+                                <div class="inner-content">
+                                    <div class="image-div d-flex flex-wrap profiles">
+                                        <div class="inner-profile scrollable">
+                                            <a href="#">
+                                                <i class="fa-brands fa-linkedin"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-brands fa-github"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-brands fa-square-instagram"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-brands fa-whatsapp"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="credentials-details">
+                                        <p class="default-font-style">Connect With Me</p>
+                                        <p class="default-font-style2">Profiles</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row third-row">
+                    <div class="col-6 third-row-inner-div">
+                        <div class="inner-row-content experience-div">
+                            <div class="row">
+                                <div class="col-4 years-exp inner-exp">
+                                    <div class="inner-content">
+                                        <span>07</span>
+                                        <span>Years Experience</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 clients inner-exp">
+                                    <div class="inner-content">
+                                        <span>50+</span>
+                                        <span>Clients Worldwide</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 projects inner-exp">
+                                    <div class="inner-content">
+                                        <span>99+</span>
+                                        <span>Total Projects</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 third-row-inner-div work-together-div">
+                        <div class="inner-row-content">
+                            <a href="#goSomewhere3" class="go-svg">
+                            </a>
+
+                            <div class="inner-div">
+                                <p>
+                                    Let's <br>Work <span>Together</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3"></div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row d-flex flex-wrap justify-content-center">
+                    <div class="col-12 footer-div">
+                        <div class="inner-div">
+                            <img src="assets/images/svg/logo.svg" alt="Logo" class="logo">
+                        </div>
+                    </div>
+                    <div class="col-12 footer-div">
+                        <div class="inner-div">
+                            <ul class="footer-list">
+                                <a href="index.html" class="active">
+                                    <li>Home</li>
+                                </a>
+                                <a href="about.html">
+                                    <li>About</li>
+                                </a>
+                                <a href="works.html">
+                                    <li>Works</li>
+                                </a>
+                                <a href="contact.html">
+                                    <li>Contact</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 footer-div">
+                        <div class="inner-div">
+                            <p style="text-align: center;"> &copy; All rights reserved by &nbsp; <a
+                                    href="#">dineshbaidya.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+    <!-- Jquery Cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom script -->
+    <script src="assets/scripts/scripts.js"></script>
+
+</body>
+
+</html>

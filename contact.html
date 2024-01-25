@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Chandra Baidya - Personal Portfolio</title>
+    <link rel="shortcut icon" href="assets/images/icon.jpg" type="image/x-icon">
+    <!-- bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSs -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <style>
+        @media (max-width: 991px) {
+            .second-row-div:nth-child(1) {
+                order: 1;
+            }
+
+            .second-row-div:nth-child(2) {
+                order: 3;
+                margin-top: 10px;
+            }
+
+            .second-row-div:nth-child(3) {
+                order: 2;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-body">
+
+    <div class="preloader position-relative">
+        <div class="position-absolute loading-div">
+            <div class="loading-content">
+                <div class="loading-spinner"></div>
+                <p>Portfolio is Loading Please Wait... <br>
+                    <span id="loadingPercentage">0%</span> Loaded
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <header>
+            <div class="navlink-responsive">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="works.html">
+                        <li>Works</li>
+                    </a>
+                    <a href="contact.html" class="active">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#talk">
+                        <li>
+                            <button class="btn btn-dark lets-talk-btn-nav">Let's Talk</button>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <nav class="navbar">
+
+                <div class="logo-div">
+                    <img src="assets/images/svg/logo.svg" class="position-relative" alt="logo">
+                </div>
+                <div class="links-div">
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="works.html">
+                            <li>Works</li>
+                        </a>
+                        <a href="contact.html" class="active">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="letstalk-div">
+                    <button class="btn btn-dark" id="lets-talk-btn">Let's Talk</button>
+                    <!-- <button class="btn btn-dark"><img src="assets/images/loading.gif" class="laoding-img"></button> -->
+                </div>
+                <div class="responsive-three-dot-div">
+                    <!-- <button class="btn" id="more-btn"><i class="fa-solid fa-bars white"></i></button> -->
+                    <button class="morebtn" id="more-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <section id="body">
+            <div class="container" id="body-content">
+
+
+                <div class="row mt-3"></div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row d-flex flex-wrap justify-content-center">
+                    <div class="col-12 footer-div">
+                        <div class="inner-div">
+                            <img src="assets/images/svg/logo.svg" alt="Logo" class="logo">
+                        </div>
+                    </div>
+                    <div class="col-12 footer-div">
+                        <div class="inner-div">
+                            <ul class="footer-list">
+                                <a href="index.html">
+                                    <li>Home</li>
+                                </a>
+                                <a href="about.html">
+                                    <li>About</li>
+                                </a>
+                                <a href="works.html">
+                                    <li>Works</li>
+                                </a>
+                                <a href="contact.html" class="active">
+                                    <li>Contact</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 footer-div">
+                        <div class="inner-div">
+                            <p style="text-align: center;"> &copy; All rights reserved by &nbsp; <a
+                                    href="#">dineshbaidya.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <!-- Jquery Cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom script -->
+    <script src="assets/scripts/scripts.js"></script>
+
+</body>
+
+</html>
